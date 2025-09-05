@@ -1,0 +1,29 @@
+{
+  "type": "fundamental",
+  "title": "AAPL Fundamental Metrics",
+  "data": {
+    "metrics": [
+      {
+        "name": "P/E Ratio",
+        "value": 28.709567360973253
+      },
+      {
+        "name": "P/B Ratio",
+        "value": 3.5361187498270428
+      },
+      {
+        "name": "ROE %",
+        "value": 23.090856479920678
+      },
+      {
+        "name": "Debt/Equity",
+        "value": 1.2024764992999502
+      }
+    ]
+  },
+  "layout": {
+    "width": 600,
+    "height": 400,
+    "chart_type": "bar"
+  }
+}

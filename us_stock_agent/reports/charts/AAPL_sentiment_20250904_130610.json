@@ -1,0 +1,29 @@
+{
+  "type": "sentiment",
+  "title": "AAPL Sentiment Analysis",
+  "data": {
+    "sentiments": [
+      {
+        "source": "Overall",
+        "score": 0.34354713139076143
+      },
+      {
+        "source": "News",
+        "score": 0.5945481355668626
+      },
+      {
+        "source": "Analysts",
+        "score": -0.28326030571032246
+      },
+      {
+        "source": "Social Media",
+        "score": 0.3985921706350336
+      }
+    ]
+  },
+  "layout": {
+    "width": 600,
+    "height": 400,
+    "chart_type": "gauge"
+  }
+}

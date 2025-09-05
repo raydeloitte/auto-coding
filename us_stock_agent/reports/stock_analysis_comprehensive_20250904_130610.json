@@ -1,0 +1,111 @@
+{
+  "report_id": "report_20250904_130610",
+  "generated_at": "2025-09-04T13:06:10.282108",
+  "request_id": "analysis_AAPL_20250904_130609",
+  "symbols": [
+    "AAPL"
+  ],
+  "analysis_depth": "comprehensive",
+  "sections": {
+    "AAPL": {
+      "symbol": "AAPL",
+      "overview": {
+        "current_price": 91.73720582834584,
+        "daily_change": 3.017564804653105,
+        "daily_change_percent": 1.021016121634979,
+        "volume": 2765846,
+        "market_cap": 193982850771.04056
+      },
+      "technical_analysis": {
+        "trend": "bearish",
+        "key_levels": {
+          "support": 92.84030890066767,
+          "resistance": 107.35725452548512
+        },
+        "indicators": {
+          "rsi": 48.62929244479517,
+          "macd": -1.4582210727264302
+        },
+        "signals": [
+          {
+            "signal_type": "sell",
+            "confidence": 0.5296550324433246,
+            "strength": -0.986740293844222,
+            "reason": "Technical indicator signal based on Bollinger",
+            "indicator": "MACD"
+          },
+          {
+            "signal_type": "buy",
+            "confidence": 0.5932856479485253,
+            "strength": -0.058738249969616074,
+            "reason": "Technical indicator signal based on MACD",
+            "indicator": "RSI"
+          },
+          {
+            "signal_type": "hold",
+            "confidence": 0.5865813881868378,
+            "strength": -0.7570686529286677,
+            "reason": "Technical indicator signal based on RSI",
+            "indicator": "RSI"
+          },
+          {
+            "signal_type": "buy",
+            "confidence": 0.6206995580419375,
+            "strength": -0.5451138358874521,
+            "reason": "Technical indicator signal based on SMA",
+            "indicator": "SMA_crossover"
+          },
+          {
+            "signal_type": "hold",
+            "confidence": 0.8388065327251819,
+            "strength": 0.06084180341737899,
+            "reason": "Technical indicator signal based on SMA",
+            "indicator": "RSI"
+          }
+        ]
+      },
+      "fundamental_analysis": {
+        "overall_score": 0.3613218814959332,
+        "valuation": "fairly_valued",
+        "growth_prospects": "poor",
+        "key_metrics": {
+          "pe_ratio": 26.78793711497835,
+          "pb_ratio": 3.200488503851939,
+          "roe": 20.43946487123139,
+          "debt_to_equity": 1.5357795307242794
+        }
+      },
+      "risk_assessment": {
+        "risk_level": "very_high",
+        "volatility": 0.38371037448390477,
+        "beta": 0.5595387965217871,
+        "var_95": 0.022818401201918043,
+        "max_drawdown": 0.18679011483214153,
+        "sharpe_ratio": -0.09510068333898986
+      },
+      "sentiment_analysis": {
+        "overall_sentiment": 0.23243577891554112,
+        "sentiment_breakdown": {
+          "news": -0.07429364734086585,
+          "analyst": 0.30267329772494145,
+          "social": 0.3249576669545279
+        },
+        "sentiment_trend": "deteriorating"
+      },
+      "charts": {
+        "candlestick_chart": "reports/charts/AAPL_candlestick_chart.json",
+        "volume_chart": "reports/charts/AAPL_volume_chart.json",
+        "indicators_chart": "reports/charts/AAPL_indicators_chart.json",
+        "fundamental_chart": "reports/charts/AAPL_fundamental_chart.json",
+        "risk_chart": "reports/charts/AAPL_risk_chart.json",
+        "sentiment_chart": "reports/charts/AAPL_sentiment_chart.json"
+      },
+      "recommendation": {
+        "recommendation": "SELL",
+        "confidence": 0.16047002173579084,
+        "score": -0.20058752716973854,
+        "reasoning": "Technical indicators show bearish trend; Poor growth prospects; High risk level (very_high)"
+      }
+    }
+  }
+}

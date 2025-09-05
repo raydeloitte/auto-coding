@@ -1,0 +1,29 @@
+{
+  "type": "risk",
+  "title": "AAPL Risk Metrics",
+  "data": {
+    "metrics": [
+      {
+        "name": "Volatility",
+        "value": 0.3873672809986328
+      },
+      {
+        "name": "Beta",
+        "value": 1.6875495137337961
+      },
+      {
+        "name": "VaR",
+        "value": 0.050749571213461034
+      },
+      {
+        "name": "Max Drawdown",
+        "value": 0.22479992025410261
+      }
+    ]
+  },
+  "layout": {
+    "width": 600,
+    "height": 400,
+    "chart_type": "radar"
+  }
+}

@@ -1,0 +1,81 @@
+# Core dependencies for Stock Analysis Multi-Agent System
+
+# Async and concurrent programming
+asyncio-mqtt>=0.11.0
+aiohttp>=3.8.0
+aiofiles>=23.0.0
+
+# Data processing and analysis
+numpy>=1.24.0
+pandas>=1.5.0
+scipy>=1.10.0
+
+# Financial data and APIs
+yfinance>=0.2.0
+alpha-vantage>=2.3.0
+finnhub-python>=2.4.0
+
+# Technical analysis
+ta-lib>=0.4.25  # Note: requires separate TA-Lib C library installation
+pandas-ta>=0.3.14b
+
+# Visualization
+plotly>=5.15.0
+matplotlib>=3.6.0
+seaborn>=0.12.0
+bokeh>=3.0.0
+
+# Configuration and logging
+PyYAML>=6.0
+python-dotenv>=1.0.0
+coloredlogs>=15.0.1
+
+# Testing
+pytest>=7.0.0
+pytest-asyncio>=0.21.0
+pytest-mock>=3.10.0
+pytest-cov>=4.0.0
+
+# Data storage and caching
+redis>=4.5.0
+sqlalchemy>=1.4.0
+psycopg2-binary>=2.9.5  # PostgreSQL adapter
+
+# Machine learning (optional)
+scikit-learn>=1.2.0
+tensorflow>=2.12.0  # Optional, for advanced ML features
+torch>=2.0.0  # Optional, for deep learning models
+
+# Sentiment analysis
+vaderSentiment>=3.3.2
+textblob>=0.17.1
+transformers>=4.21.0  # Optional, for advanced NLP
+
+# Web scraping and news (optional)
+beautifulsoup4>=4.12.0
+requests>=2.28.0
+newspaper3k>=0.2.8
+
+# Report generation
+reportlab>=4.0.0  # PDF generation
+jinja2>=3.1.0  # Template engine
+weasyprint>=59.0  # HTML to PDF conversion
+
+# Utilities
+python-dateutil>=2.8.0
+pytz>=2023.3
+tqdm>=4.65.0
+click>=8.1.0  # CLI framework
+
+# Development tools
+black>=23.0.0
+flake8>=6.0.0
+mypy>=1.0.0
+pre-commit>=3.0.0
+
+# Optional: Advanced features
+# streamlit>=1.28.0  # For web dashboard
+# fastapi>=0.100.0  # For REST API
+# uvicorn>=0.23.0   # ASGI server
+# celery>=5.3.0     # Task queue for background processing
+# docker>=6.1.0     # Container management

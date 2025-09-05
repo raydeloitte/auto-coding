@@ -1,0 +1,20 @@
+{
+  "type": "indicators",
+  "title": "AAPL Technical Indicators",
+  "data": {
+    "rsi": 48.5191003847565,
+    "macd": 1.0597343187878119,
+    "indicators": {
+      "rsi": 48.5191003847565,
+      "macd": 1.0597343187878119,
+      "sma_20": 98.10112406518121,
+      "sma_50": 98.34787941674907,
+      "bollinger_upper": 107.46948828798925,
+      "bollinger_lower": 86.81205259390956
+    }
+  },
+  "layout": {
+    "width": 800,
+    "height": 400
+  }
+}

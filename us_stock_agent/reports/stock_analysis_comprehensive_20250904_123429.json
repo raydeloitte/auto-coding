@@ -1,0 +1,90 @@
+{
+  "report_id": "report_20250904_123429",
+  "generated_at": "2025-09-04T12:34:29.584758",
+  "request_id": "analysis_AAPL_20250904_123428",
+  "symbols": [
+    "AAPL"
+  ],
+  "analysis_depth": "comprehensive",
+  "sections": {
+    "AAPL": {
+      "symbol": "AAPL",
+      "overview": {
+        "current_price": 80.95044517703798,
+        "daily_change": 1.3290435251722235,
+        "daily_change_percent": -1.5714619763491102,
+        "volume": 8242491,
+        "market_cap": 963325119453.1967
+      },
+      "technical_analysis": {
+        "trend": "bearish",
+        "key_levels": {
+          "support": 93.87825127951302,
+          "resistance": 106.11747953695281
+        },
+        "indicators": {
+          "rsi": 67.80690743210167,
+          "macd": 0.19867612086890318
+        },
+        "signals": [
+          {
+            "signal_type": "buy",
+            "confidence": 0.7516062500356149,
+            "strength": 0.058063290744736484,
+            "reason": "Technical indicator signal based on RSI",
+            "indicator": "bollinger"
+          },
+          {
+            "signal_type": "buy",
+            "confidence": 0.8682559332487267,
+            "strength": -0.06689530286773304,
+            "reason": "Technical indicator signal based on RSI",
+            "indicator": "MACD"
+          }
+        ]
+      },
+      "fundamental_analysis": {
+        "overall_score": 0.46995343823728236,
+        "valuation": "undervalued",
+        "growth_prospects": "moderate",
+        "key_metrics": {
+          "pe_ratio": 29.50770465553263,
+          "pb_ratio": 1.9960124860760684,
+          "roe": 8.151974978310097,
+          "debt_to_equity": 0.48173988907569953
+        }
+      },
+      "risk_assessment": {
+        "risk_level": "low",
+        "volatility": 0.3597773205451792,
+        "beta": 1.3480244475929444,
+        "var_95": 0.06363773413901849,
+        "max_drawdown": 0.10506826134909697,
+        "sharpe_ratio": 0.947615350062661
+      },
+      "sentiment_analysis": {
+        "overall_sentiment": -0.1032236606842678,
+        "sentiment_breakdown": {
+          "news": -0.16162254536904463,
+          "analyst": 0.3267894300742097,
+          "social": -0.8110280946970021
+        },
+        "sentiment_trend": "deteriorating"
+      },
+      "charts": {
+        "candlestick_chart": "reports/charts/AAPL_candlestick_chart.json",
+        "volume_chart": "reports/charts/AAPL_volume_chart.json",
+        "indicators_chart": "reports/charts/AAPL_indicators_chart.json",
+        "fundamental_chart": "reports/charts/AAPL_fundamental_chart.json",
+        "risk_chart": "reports/charts/AAPL_risk_chart.json",
+        "sentiment_chart": "reports/charts/AAPL_sentiment_chart.json"
+      },
+      "recommendation": {
+        "recommendation": "BUY",
+        "confidence": 0.2466581397033953,
+        "score": 0.3083226746292441,
+        "reasoning": "Technical indicators show bearish trend; Company appears undervalued based on fundamentals; Low risk profile"
+      }
+    }
+  }
+}
